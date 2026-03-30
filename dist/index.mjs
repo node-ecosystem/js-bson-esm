@@ -1,4 +1,3 @@
-import { t as __exportAll } from "./chunk-CfYAbeIz.mjs";
 //#region src/parser/utils.ts
 const TypedArrayPrototypeGetSymbolToStringTag = (() => {
 	const g = Object.getOwnPropertyDescriptor(Object.getPrototypeOf(Uint8Array.prototype), Symbol.toStringTag).get;
@@ -4590,38 +4589,39 @@ onDemand.NumberUtils = NumberUtils;
 Object.freeze(onDemand);
 //#endregion
 //#region src/bson.ts
-var bson_exports = /* @__PURE__ */ __exportAll({
-	BSONError: () => BSONError,
-	BSONOffsetError: () => BSONOffsetError,
-	BSONRegExp: () => BSONRegExp,
-	BSONRuntimeError: () => BSONRuntimeError,
-	BSONSymbol: () => BSONSymbol,
-	BSONType: () => BSONType,
-	BSONValue: () => BSONValue,
-	BSONVersionError: () => BSONVersionError,
-	Binary: () => Binary,
-	ByteUtils: () => ByteUtils,
-	Code: () => Code,
-	DBRef: () => DBRef,
-	Decimal128: () => Decimal128,
-	Double: () => Double,
-	EJSON: () => EJSON,
-	Int32: () => Int32,
-	Long: () => Long,
-	MaxKey: () => MaxKey,
-	MinKey: () => MinKey,
-	NumberUtils: () => NumberUtils,
-	ObjectId: () => ObjectId,
-	Timestamp: () => Timestamp,
-	UUID: () => UUID,
-	bsonType: () => bsonType,
-	calculateObjectSize: () => calculateObjectSize,
-	deserialize: () => deserialize,
-	deserializeStream: () => deserializeStream,
-	onDemand: () => onDemand,
-	serialize: () => serialize,
-	serializeWithBufferAndIndex: () => serializeWithBufferAndIndex,
-	setInternalBufferSize: () => setInternalBufferSize
+var bson_exports = /*#__PURE__*/Object.freeze({
+	__proto__: null,
+	BSONError,
+	BSONOffsetError,
+	BSONRegExp,
+	BSONRuntimeError,
+	BSONSymbol,
+	BSONType,
+	BSONValue,
+	BSONVersionError,
+	Binary,
+	ByteUtils,
+	Code,
+	DBRef,
+	Decimal128,
+	Double,
+	EJSON,
+	Int32,
+	Long,
+	MaxKey,
+	MinKey,
+	NumberUtils,
+	ObjectId,
+	Timestamp,
+	UUID,
+	bsonType,
+	calculateObjectSize,
+	deserialize,
+	deserializeStream,
+	onDemand,
+	serialize,
+	serializeWithBufferAndIndex,
+	setInternalBufferSize
 });
 /** @internal */
 const MAXSIZE = 1024 * 1024 * 17;
