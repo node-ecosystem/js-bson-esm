@@ -1,5 +1,5 @@
 {
-  "name": "bson",
+  "name": "bson-esm",
   "description": "A bson parser for node.js and the browser",
   "keywords": [
     "mongodb",
@@ -16,9 +16,10 @@
   },
   "license": "Apache-2.0",
   "contributors": [],
-  "repository": "mongodb/js-bson",
+  "homepage": "https://github.com/node-ecosystem/js-bson-esm",
+  "repository": "github:node-ecosystem/js-bson-esm",
   "bugs": {
-    "url": "https://jira.mongodb.org/projects/NODE/issues/"
+    "url": "https://github.com/node-ecosystem/js-bson-esm/issues"
   },
   "devDependencies": {
     "@types/node": "^24.2.1",
