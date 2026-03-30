@@ -25,18 +25,6 @@
     "tsdown": "^0.21.7",
     "typescript": "^5.8.3"
   },
-  "tsd": {
-    "directory": "test/types",
-    "compilerOptions": {
-      "strict": true,
-      "target": "esnext",
-      "module": "commonjs",
-      "moduleResolution": "node"
-    }
-  },
-  "config": {
-    "native": false
-  },
   "type": "module",
   "types": "./dist/index.d.mts",
   "module": "./dist/index.mjs",
@@ -45,10 +33,6 @@
       "types": "./dist/index.d.mts",
       "import": "./dist/index.mjs"
     }
-  },
-  "compass:exports": {
-    "import": "./lib/bson.cjs",
-    "require": "./lib/bson.cjs"
   },
   "engines": {
     "node": ">=20.19.0"
