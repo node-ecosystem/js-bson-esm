@@ -43,6 +43,6 @@
     "node": ">=20.19.0"
   },
   "scripts": {
-    "my-build": "tsdown"
+    "build": "tsdown"
   }
 }
