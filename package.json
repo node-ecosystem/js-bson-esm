@@ -17,7 +17,10 @@
   "license": "Apache-2.0",
   "contributors": [],
   "homepage": "https://github.com/node-ecosystem/js-bson-esm",
-  "repository": "github:node-ecosystem/js-bson-esm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-ecosystem/js-bson-esm.git"
+  },
   "bugs": {
     "url": "https://github.com/node-ecosystem/js-bson-esm/issues"
   },
