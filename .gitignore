@@ -16,6 +16,7 @@ node_modules/
 
 output
 build
+dist
 .bin
 npm-debug.log
 builderror.log

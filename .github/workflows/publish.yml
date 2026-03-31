@@ -27,6 +27,8 @@ jobs:
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Install dependencies & build
+        run: yarn install && yarn build
       - name: Create GitHub release
         uses: actions/github-script@v8
         with:
